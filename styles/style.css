@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+}
+.logo{
+    font-size: 30px; 
+    margin-left:100px;
+    margin-top: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(116, 169, 215);
+
+}
+.menu{
+    margin-left: 500px;
+    margin-top: 20px;
+}.menu a{
+    margin-left: 100px;
+    text-decoration: none;
+}
+.image{
+    background-image: url(../images/bg.jpeg);
+    height: 400px;
+    color: white;
+    border: 3px rgb(124, 173, 226) solid;
+    text-align: center;
+   
+}
+.data span{
+    color: rgb(116, 169, 215);
+    font-size: 25px;
+}.data{
+    margin: 100px;
+}
+.data h1{
+    font-size: 50px;
+}
+#signup{
+    height: 40px;
+    width: 100px;
+    border: 0;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(164, 212, 255);
+
+}
+#learnmore{
+    height: 40px;
+    width: 100px;
+    border: 1px white solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+.content1{
+    height: 500px;
+    width: 100%;
+
+}
+.data2{
+    padding: 50px;
+    margin-left: 400px;
+}
+.data2 h2{
+    margin-left: 100px;
+}
+.boxs{
+    margin: 20px;
+    display: flex;
+}
+.box1{
+    height: 250px;
+    width: 300px;
+    border: 1px rgb(128, 186, 237) solid;
+    margin-left: 100px;
+   
+}
+.box2{
+    height: 250px;
+    width: 300px;
+    border: 1px rgb(128, 186, 237) solid;
+    margin-left: 40px;
+}
+.box3{
+    height: 250px;
+    width: 300px;
+    border: 1px rgb(128, 186, 237) solid;
+    margin-left: 40px;
+}
+.watch{
+    height: 60px;
+    width: 60px;
+    border: 2px rgb(173, 207, 237) solid;
+   
+    border-radius: 50%;
+    background-color: rgb(130, 178, 219);
+    
+}
+.watch ion-icon{
+   height: 40px;
+   width: 30px;
+   padding: 10px;
+   color: white;
+    
+}
+.box11{
+    padding: 30px;
+}
+.box22{
+    padding: 30px;
+}
+.file{
+    height: 60px;
+    width: 60px;
+    border: 2px rgb(173, 207, 237) solid;
+   
+    border-radius: 50%;
+    background-color: rgb(130, 178, 219);
+    
+}
+.file ion-icon{
+    height: 40px;
+    width: 30px;
+    padding: 10px;
+    color: white;
+}
+.box33{
+    padding: 30px;
+}
+.arrow{
+    height: 60px;
+    width: 60px;
+    border: 2px rgb(173, 207, 237) solid;
+   
+    border-radius: 50%;
+    background-color: rgb(130, 178, 219);
+}
+.arrow ion-icon{
+    height: 40px;
+    width: 30px;
+    padding: 10px;
+    color: white;
+}
+.content2{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+}
+.content2 img{
+    height: 200px;
+    width: 300px;
+    
+}
+.Images{
+    display: flex;
+}
+.content2 .data h1{
+    margin-top: 0;
+    margin-left: 400px;
+}
+.content2 .data p{
+    margin-left: 350px;
+
+}
+.img1{
+    margin-left: 150px;
+    margin-right: 200px;
+}
+.img2{
+    margin-left: 150px;
+    margin-right: 200px;
+}
+.content2 button{
+    height: 40px;
+    width: 100px;
+    border: 1px white solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.tabs{
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.tablinks{
+    background-color: rgb(165, 168, 172);
+    
+}
+.Buttons{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.content3{
+    height: 900px;
+    width: 100%;
+}
+.content31 button{
+    height: 40px;
+    width: 150px;
+    border: 1px white solid;
+    border-radius: 5px;
+    background-color: rgb(211, 214, 216);
+    color: white;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.content3 .data{
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.content3 .data p{
+    margin-left: -40px;
+}
+
+.content31{
+    margin-top: -70px;
+    margin-left: 250px;
+}
+.footer1
+{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(172, 168, 168);
+    display: flex;
+}
+.footer1 .about{
+    margin-left: 50px;
+    margin-right: 200px;
+
+}
+.footer1 .links{
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 500px;
+   
+}
+.footer1 .logos{
+    margin-left: -300px;
+    margin-right: 100px;
+}
+.insta{
+    display: flex;
+}
+.fb{
+    display: flex;
+}
+.twitter{
+    display: flex;
+}
+.google{
+    display: flex;
+}
+.tabcontent{
+    display: flex;
+
+}
+.tabcontent img{
+    height: 500px;
+    width: 800px;
+    margin-top: 70px;
+    margin-left: -200px;
+
+}
+#tab2{
+    display: none;
+}
+#tab3{
+    display: none;
+}
+.pinterest{
+    display: flex;
+}
+.content3 .data2 p{
+    margin-left: -150px;
+    margin-right: 200px;
+}
+.content3 .data2 h1{
+    margin-left: 100px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: gainsboro;
+    margin-top: -50px;
+   
+}
+footer p{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+    
+
+

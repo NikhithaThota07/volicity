@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>velocity</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js">
+        function openTab(tabName){
+            var i,tabcontent,tablinks;
+            tabcontent = document.getElementByClassName("tabcontent");
+            for (i=0; i< tabcontent.length;i++){
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for( i= 0; i< tablinks.length;i++){
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(tabName).style.display = "block";
+            event.currentTarget.classList.add("active");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+           <div class="logo"><a href="index.html">VELOCITY</a></div>
+           <div class="menu">
+            <a href="index.html">HOME</a>
+            <a href="#">CONTACT</a>
+           </div>
+        </nav>
+        <div class="image">
+            <div class="data">
+            <h1>THIS IS VELOCITY</h1><br>
+            <span>A FREE RESPONSIVE TEMPLATE BY WEBFLOW</span><br>
+            <div class="buttons"><button id="signup"> SIGN UP</button>
+            <button id="learnmore">LEARN MORE</button></div></div>
+        </div>
+        <div class="content1">
+            <div class="data2">
+                <h2>WHAT WE DO</h2>
+                <P>THIS IS SOME TEXT INSIDE OF A DIV BLOCK</P>
+            </div>
+            <div class="boxs">
+                <div class="box1">
+                    <!-- <div class="box12"> -->
+                    <div class="box11">
+                        <div class="watch"><ion-icon name="watch"></ion-icon></div>
+                    <div><h3>GRAPHIC DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div></div></div>
+                <div class="box2">
+                    <div class="box22">
+                        <div class="arrow"><ion-icon name="code"></ion-icon></div>
+                    <div><h3>AWESOME CODE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div></div>
+                </div>
+                <div class="box3">
+                    <div class="box33">
+                        <div class="file"><ion-icon name="file-tray"></ion-icon></div>
+                    <div><h3>FREE TEMPLATE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div></div>
+                </div>
+            </div>
+            <div class="content2">
+                <div class="data">
+                    <h1>SERVICES</h1>
+                    <p>THIS IS SOME TEXT INSIDE OF A DIV BLOCK</p>
+                </div>
+                <div class="Images">
+                <div class="img1">
+                    <img src="images/img1.jpeg" alt="image">
+                    <h3>SERVICES ONE</h3><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eum dolores at sed alias quod repellendus blanditiis consequuntur quae similique, accusamus itaque. Perspiciatis corrupti reiciendis quibusdam quos, repellat consequuntur alias.</p>
+                    <button>LEARN MORE</button>
+                </div>
+                <div class="img2">
+                    <img src="images/img2.jpeg" alt="img2">
+                    <h3>SERVICES TWO</h3><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis animi, debitis aliquid ad repellat similique qui. Illum, vero animi! At explicabo architecto, nisi quam nobis autem iusto culpa dolore obcaecati?</p>
+                    <button>LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+        <div class="content3">
+           <div class="data">
+            <h2>TAB SECTION</h2><br>
+            <p>THIS IS SOME INSIDE OF A DIV</p>
+           </div> 
+           <div class="content31">
+            <div class="Buttons">
+            <button class="tablinks" onclick="openTab(event, 'tab1')">TAB BUTTON 1</button>
+            <button class="tablinks" onclick="openTab(event, 'tab2')">TAB BUTTON 2</button>
+            <button class="tablinks" onclick="openTab(event, 'tab3')">TAB BUTTON 3</button>
+            </div>
+            <div class="tabs">
+            <div id="tab1" class="tabcontent">
+                <img src="images/tabimg1.jpg" alt="image1">
+            </div>
+            <div id="tab2" class="tabcontent">
+                <img src="images/tabimg2.jpg" alt="image2">
+            </div>
+            <div id="tab3" class="tabcontent">
+                <img src="images/tabimg3.jpg" alt="image3">
+            </div>
+            </div>
+           </div>
+           <div class="data2">
+            <h1>some title here</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error id numquam, itaque corporis deserunt perferendis, accusamus laborum fugit blanditiis cum nisi magni aperiam neque placeat eos minus tempora consequatur aut!</p>
+           </div>
+        </div>
+        <div class="footer1">
+            <div class="about">
+                <h2>ABOUT VELOCITY</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sunt soluta ea architecto eaque molestias rerum consectetur temporibus nesciunt ipsum. Dignissimos quis ipsum possimus illum quod, natus assumenda molestiae distinctio!</p>
+            </div>
+            <div class="links">
+                <h2>importent links</h2>
+                <a href="#">Phasellus gravida semper nisi</a><hr>
+                <a href="#">Suspendisse nisl elit</a><hr>
+                <a href="#">Dellentesque habitant morbi</a><hr>
+                <a href="#">Etiam sollicitudin ipsum</a>
+            </div>
+            <div class="logos">
+                <h2>social media</h2>
+                <div class="insta"><ion-icon name="logo-instagram"></ion-icon>
+                <p>insta</p></div><hr>
+                <div class="fb"><ion-icon name="logo-facebook"></ion-icon>
+                <p>facebook</p></div><hr>
+                <div class="twitter"><ion-icon name="logo-twitter"></ion-icon>
+                <p>twitter</p></div><hr>
+                <div class="google"><ion-icon name="logo-google"></ion-icon>
+                <p>google</p></div><hr>
+                <div class="pinterest"><ion-icon name="logo-pinterest"></ion-icon>
+                pinterest</div>
+            </div>
+        </div>
+        <footer>
+            <p>copy right @VELOCITY.inc</p>
+        </footer>
+
+    </div>
+</body>
+</html>
